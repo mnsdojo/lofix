@@ -1,0 +1,58 @@
+
+export const themes = {
+  warmSand: {
+    name: "Warm Sand",
+    background: "bg-[#E5D3B3]",
+    text: "text-[#5C4B3C]",
+    subtext: "text-[#8C7A6B]",
+    card: "bg-[#F5EDE3]",
+    button: "bg-[#C4A484] text-[#5C4B3C] hover:bg-[#B39374]",
+    isDark: false,
+  },
+  coolMint: {
+    name: "Cool Mint",
+    background: "bg-[#D5E8E3]",
+    text: "text-[#2D4F44]",
+    subtext: "text-[#5B8C7A]",
+    card: "bg-[#EAF5F2]",
+    button: "bg-[#9CCFC4] text-[#2D4F44] hover:bg-[#7DBFB4]",
+    isDark: false,
+  },
+  softLilac: {
+    name: "Soft Lilac",
+    background: "bg-[#E5D4E8]",
+    text: "text-[#4A314F]",
+    subtext: "text-[#7A5C80]",
+    card: "bg-[#F5EAF7]",
+    button: "bg-[#C4A4CF] text-[#4A314F] hover:bg-[#B394BF]",
+    isDark: false,
+  },
+  // Dark Themes
+  midnightBlue: {
+    name: "Midnight Blue",
+    background: "bg-[#1A2B3C]",
+    text: "text-[#E0E7EC]",
+    subtext: "text-[#B0C4D4]",
+    card: "bg-[#2C3E50]",
+    button: "bg-[#34495E] text-[#E0E7EC] hover:bg-[#4A6278]",
+    isDark: true,
+  },
+  darkForest: {
+    name: "Dark Forest",
+    background: "bg-[#1E2B1E]",
+    text: "text-[#D0E0D0]",
+    subtext: "text-[#A0C0A0]",
+    card: "bg-[#2C3C2C]",
+    button: "bg-[#3A4A3A] text-[#D0E0D0] hover:bg-[#4A5A4A]",
+    isDark: true,
+  },
+  deepPurple: {
+    name: "Deep Purple",
+    background: "bg-[#2A1B3D]",
+    text: "text-[#E0D0F0]",
+    subtext: "text-[#B0A0C0]",
+    card: "bg-[#3C2C50]",
+    button: "bg-[#4A3A60] text-[#E0D0F0] hover:bg-[#5A4A70]",
+    isDark: true,
+  },
+}
